@@ -1,17 +1,19 @@
+import { FC } from 'react'
 import { Metadata } from 'next'
 
-import Button from '~/components/button'
+import Home from './home'
 
 export const metadata: Metadata = {
   title: 'NextJS | Home',
   description: 'NExt Js Home Desc',
 }
 
-export default function Home() {
+const Main: FC = () => {
   return (
     <>
-      <p>Makan</p>
-      <Button />
+      <Home />
     </>
   )
 }
+
+export default Main

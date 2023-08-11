@@ -1,11 +1,7 @@
 import { create } from 'zustand'
+import { IThemeState } from '~/types/store'
 
-interface ThemeState {
-  mode: 'light' | 'dark'
-  changeMode: () => void
-}
-
-const useThemeState = create<ThemeState>()((set) => ({
+const useThemeState = create<IThemeState>()((set) => ({
   mode: 'light',
   changeMode: () =>
     set((state) => ({

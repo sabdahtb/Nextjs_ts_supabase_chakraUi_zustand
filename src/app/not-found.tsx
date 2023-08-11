@@ -1,7 +1,7 @@
 import { FC } from 'react'
-import Link from 'next/link'
-
 import type { Metadata } from 'next'
+
+import NotFound from './404'
 
 export const metadata: Metadata = {
   title: 'NextJS | Page not found',
@@ -10,10 +10,9 @@ export const metadata: Metadata = {
 
 const PageNotFound: FC = () => {
   return (
-    <section>
-      <p>404</p>
-      <Link href="/">Back to home</Link>
-    </section>
+    <>
+      <NotFound />
+    </>
   )
 }
 
