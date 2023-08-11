@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import { Metadata } from 'next'
 
-import Avatar from '~/components/avatar'
+import Hero from './components/hero'
 
 export const metadata: Metadata = {
   title: 'Kedai Abdi | Admin',
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const Admin: FC = () => {
   return (
     <>
-      <Avatar />
+      <Hero />
     </>
   )
 }

@@ -4,8 +4,8 @@ import { Metadata } from 'next'
 import Home from './home'
 
 export const metadata: Metadata = {
-  title: 'NextJS | Home',
-  description: 'NExt Js Home Desc',
+  title: 'Kedai Abdi | Home',
+  description: 'Home Pahe Kedai Abdi',
 }
 
 const Main: FC = () => {

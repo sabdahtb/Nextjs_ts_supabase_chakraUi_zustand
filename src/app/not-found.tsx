@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 import NotFound from './404'
 
 export const metadata: Metadata = {
-  title: 'NextJS | Page not found',
-  description: 'page Not Found Desc',
+  title: '404 | Page not found',
+  description: 'Page not Found',
 }
 
 const PageNotFound: FC = () => {
